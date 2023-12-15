@@ -12,3 +12,28 @@ const MENU = {
 
     양식: ['라자냐', '그라탱', '뇨끼', '끼슈', '프렌치 토스트', '바게트', '스파게티', '피자', '파니니'],
 }
+
+const OUTPUT_MESSAGE = {
+    
+    PROGRAM_START: `점심 메뉴 추천을 시작합니다.`,
+    
+    PRINT_RESULT: `메뉴 추천 결과입니다.`,
+
+    PROGRAM_END: `추천을 완료했습니다.`
+}
+
+const ERROR_MESSAGE = {
+
+    COACH_NAME_COUNT_NOT_IN_RANGE: `[ERROR] 코치는 2명 이상, 5명 이하로 입력해 주세요.`,
+
+    COACH_NAME_LENGTH_NOT_IN_RANGE: `[ERROR] 코치 이름은 2글자에서 4글자 사이로 입력해 주세요.`,
+
+    MENU_COACH_CANT_EAT_COUNT_NOT_IN_RANGE: `[ERROR] 코치가 먹지 못하는 음식의 수는 2개 이하로 입력해 주세요.`
+}
+
+export {
+    MENU_CATEGORIES,
+    MENU,
+    OUTPUT_MESSAGE,
+    ERROR_MESSAGE
+}
